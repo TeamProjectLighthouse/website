@@ -5,36 +5,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
+
+  <!-- Css -->
   <link href="style/general.css" rel="stylesheet" type="text/css" />
-  <link href="style/nav-bar.css" rel="stylesheet" type="text/css" />
-  <link href="style/text.css" rel="stylesheet" type="text/css" />
+  <link href="style/cover.css" rel="stylesheet" type="text/css" />
+  <link href="style/motto.css" rel="stylesheet" type="text/css" />
+
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="border-box"></div>
-  <div class="header">
-    <button class="sign-up-button">Sign up</button>
-    <button class="log-in-button">Log in</button>
+  <!-- Cover -->
+  <div class="cover-div">
+    <!-- Black box -->
+    <div class="border-box"></div>
+  
+    <!-- Upper nav-bar -->
+    <nav class="header">
+      <button class="sign-up-button">Sign up</button>
+      <button class="log-in-button">Log in</button>
+    </nav>
+  
+    <!-- Middle text -->
+    <div class="text">
+      <p class="project-text">Project</p>
+      <p class="lighthouse-text">Lighthouse</p>
+    </div>
+  
+    <!-- Bottom nav-bar -->
+    <nav class="footer">
+      <button class="about-us-button">
+        <p class="about-us-text">About us</p>
+      </button>
+      <button class="our-projects-button">
+        <p class="our-projects-text">Our projects</p>
+      </button>
+    </nav>
   </div>
 
-  <div class="text">
-    <p class="project-text">Project</p>
-    <p class="lighthouse-text">Lighthouse</p>
+  <div class="motto-div">
+    <p class="project-lighthouse-text">Project Lighthouse</p>
+    <p class="motto-text">Light your way</p>
+    <p class="intro-text">Meet the brand new education hub and student community, build by students</p>
   </div>
-
-
-  <div class="footer">
-    <button class="about-us-button">
-      <p class="about-us-text">About us</p>
-    </button>
-    <button class="our-projects-button">
-      <p class="our-projects-text">our projects</p>
-    </button>
+  
   <script src="script.js"></script>
-
 </body>
 
 </html>
